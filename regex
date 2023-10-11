@@ -1,0 +1,8 @@
+const hal= /([a-z])\w+/g
+let brave = " some days i will go to someplace But There is Home to any"
+let popy=brave.match(hal)
+console.log(popy)
+console.log(popy.indexOf('go'))
+console.log(popy[5])
+let alpha=brave.replace(/To/ig, "no")
+console.log(alpha)
